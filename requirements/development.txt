@@ -1,0 +1,2 @@
+-r production.txt
+factory_boy==3.3.1

@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'signals.apps.SignalsConfig',
 ]
 
@@ -122,3 +123,6 @@ DATABASES = {
         "PORT": os.environ["DATABASE_PORT"],
     }
 }
+
+# REST API
+# https://www.django-rest-framework.org/
