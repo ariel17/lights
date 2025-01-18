@@ -24,7 +24,6 @@ services:
       DATABASE_USER: $PROJECT_NAME
       DATABASE_PASSWORD: $DATABASE_PASSWORD
       DATABASE_NAME: $PROJECT_NAME
-      DJANGO_SETTINGS_MODULE: lights.settings_docker
     ports:
       - $APP_PORT:8000
     depends_on:
